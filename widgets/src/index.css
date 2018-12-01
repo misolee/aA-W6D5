@@ -16,6 +16,7 @@ body {
   margin-left: 300px;
   margin-right: 1000px;
   margin-top: 200px;
+  border-radius: 50px;
 }
 
 .clock {
@@ -23,4 +24,37 @@ body {
   font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: 20px;
+}
+
+.tab {
+  text-align: center;
+  display: inline-block;
+}
+
+.tab-title {
+  display: flex;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.tab-title h1 {
+  padding: 15px;
+  border-top: 2px dotted white;
+  border-left: 2px dotted white;
+  border-right: 2px dotted white;
+  border-radius: 8px;
+  color: white;
+}
+
+.tab-content {
+  border-left: 2px dotted white;
+  border-right: 2px dotted white;
+  border-bottom: 2px dotted white;
+  padding: 100px;
+  display: inline-block;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
 }

@@ -15,9 +15,9 @@ class Clock extends React.Component {
         <div class="clock">
           <h1 id="clock">Clock</h1>
           <p id="clock">
-            {this.state.time.getHours()}:
-            {this.state.time.getMinutes()}:
-            {this.state.time.getSeconds()}
+            {this.state.time.getHours()+ " "}:
+            {" " + this.state.time.getMinutes()+ " "}:
+            {" " + this.state.time.getSeconds()}
           </p>
           <h1 id="clock">Date</h1>
           <p id="clock">
